@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!-- Formularios em html -->
+     <form> <!-- Estrutura de formulário-->
+
+        <fieldset> <!--Agrupamento-->
+            <legend>Informaçoes de contato</legend>
+
+            <label for="Nome ">Nome Completo :</label> <!--Indicação do input-->
+            <input type="text" id="nome" name="nome" placeholder="Insira seu nome..." required> <!--Campo de entrada -->
+
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name = "email" placeholder="Insira seu email..." required>
+
+            <br>
+
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha" placeholder="Crie uma senha..." required>
+
+            <br>
+
+            <label for="Data">Data de nascimeto: </label>
+            <input type="date" name="data" id="data" required>
+
+            <br>
+            <br>
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferencias: </legend>
+
+            <p>Informe sua cor preferida: </p>
+            <label><input type="radio" name = "cor">Azul</label>
+            <label><input type="radio" name = "cor">Vermelho</label>
+
+            <p>Informe quais frutas voce quer :</p>
+
+            <label><input type="checkbox" name = "fruta">Maça</label>
+            <label><input type="checkbox" name = "fruta">Uva</label>
+
+            <label for="idioma">Idioma: </label>
+            <select name="idioma" id="idioma">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+            </select>
+
+            <label for="sugestoes">Sugestões</label>
+            <textarea name="susgestoes" id="sugestoes"></textarea>
+        </fieldset>
+        
+        
+        <button type="submit">Enviar</button>
+     </form>
+    
+</body>
+</html>
