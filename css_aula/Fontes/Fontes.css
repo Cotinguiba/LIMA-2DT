@@ -1,0 +1,18 @@
+h1{
+/* font-size: 100px; Tamanho da fonte*/
+/* font-size: 5em; Tamanho da fonte 16px * o numero */
+/* font-size: 10vw; Independente da tela o tamanho se mantem*/
+/* font-family: familia da fonte */
+/* font-weight: ; Espessura da letra */
+/* line-height: ; distacia da linha no mesmo elemento */
+/* letter-spacing: ; Espaçamento entre as */
+
+font-size: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 100px;
+line-height: 40px;
+color: rgba(0, 0, 255, 0.5);
+
+}
+
+h2
